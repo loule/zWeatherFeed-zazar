@@ -1,0 +1,53 @@
+﻿@charset "UTF-8";
+/**
+ * Stylesheet: example.css
+ *
+ * (c) 2011-2012 Zazar Ltd
+ * 
+ * Description: Stylesheet for examples
+ *
+ **/
+
+body {
+	margin: 1em 3em;
+	font-family: Tahoma, Genevam, sans-serif;
+}
+
+form { margin-bottom: 1em; }
+
+.weatherFeed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	margin: 2em 3em;
+	width: 280px;
+}
+.weatherFeed a { color: #888; }
+.weatherFeed a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.weatherItem {
+	padding: 0.8em;
+	text-align: right;
+}
+.weatherCity { text-transform: uppercase; }
+.weatherTemp {
+	font-size: 2.8em;
+	font-weight: bold;
+}
+.weatherDesc, .weatherCity, .weatherForecastDay  { font-weight: bold; }
+.weatherDesc { margin-bottom: 0.4em; }
+.weatherRange, .weatherWind, .weatherLink, .weatherForecastItem { font-size: 0.8em; }
+.weatherLink, .weatherForecastItem {
+	margin-top: 0.5em;
+	text-align: left;
+}
+.weatherForecastItem {
+	padding: 0.5em 0.5em 0.5em 80px;
+	background-color: #fff;
+	background-position: left center;
+}
+.weatherForecastDay { font-size: 1.1em; }
+
+.odd { background-color: #e8e8fc; }
+.even { background-color: #d4d4e8; }
