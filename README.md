@@ -7,7 +7,7 @@ I work on this great plugin to add localization option.
 
 French language in progress but anybody can add languages or custom words.
 
-Look at the localized version of the Javascript file to understand, you will find in it:
+Look at the localized version of the Javascript file "jquery.zweatherfeed_localized.js" to understand, you will find in it:
 
 * option.language : default is "en" but you can define anything in relation with the following var.
 
